@@ -1,5 +1,14 @@
-def fizzbuzz(n)
-    divisible_by_15(n) and return 'fizzbuzz'
-    divisible_by_3(n)  and return 'fizz'
-    divisible_by_5(n)  and return 'buzz'
+def fizzbuzz(int)
+  if int % 3 == 0 && int % 5 == 0
+   return "FizzBuzz"
   end
+
+  if int % 5 == 0
+   return "Buzz"
+  end
+
+  if int % 3 == 0
+   return "Fizz"
+  end
+
+end
